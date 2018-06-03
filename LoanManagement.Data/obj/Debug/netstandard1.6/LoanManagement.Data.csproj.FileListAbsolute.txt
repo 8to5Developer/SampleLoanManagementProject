@@ -1,0 +1,9 @@
+C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Data\bin\Debug\netstandard1.6\LoanManagement.Data.deps.json
+C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Data\obj\Debug\netstandard1.6\LoanManagement.Data.AssemblyInfo.cs
+C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Data\bin\Debug\netstandard1.6\LoanManagement.Data.dll
+C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Data\bin\Debug\netstandard1.6\LoanManagement.Data.pdb
+C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Data\obj\Debug\netstandard1.6\LoanManagement.Data.dll
+C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Data\obj\Debug\netstandard1.6\LoanManagement.Data.pdb
+C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Data\bin\Debug\netstandard1.6\LoanManagement.Models.dll
+C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Data\bin\Debug\netstandard1.6\LoanManagement.Models.pdb
+C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Data\obj\Debug\netstandard1.6\LoanManagement.Data.csprojResolveAssemblyReference.cache

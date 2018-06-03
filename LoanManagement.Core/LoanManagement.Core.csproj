@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LoanManagement.Data\LoanManagement.Data.csproj" />
+    <ProjectReference Include="..\LoanManagement.Models\LoanManagement.Models.csproj" />
+  </ItemGroup>
+
+</Project>
