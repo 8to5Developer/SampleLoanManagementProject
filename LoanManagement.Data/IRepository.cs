@@ -10,14 +10,14 @@ namespace LoanManagement.Data
         /// <summary>
         /// Stores the list of customers.
         /// </summary>
-        IStorage<Customer> Customers { get; set; }
+        IStorage<Customer> Customers { get; }
         /// <summary>
         /// Stores the list of loan products.
         /// </summary>
-        IStorage<LoanProduct> LoanProducts { get; set; }
+        IStorage<LoanProduct> LoanProducts { get; }
         /// <summary>
         /// Stores the set of loans.
         /// </summary>
-        IStorage<Loan> Loans { get; set; }
+        IStorage<Loan> Loans { get; }
     }
 }

@@ -1,8 +1,11 @@
 ﻿using LoanManagement.Data;
+using LoanManagement.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
+
 using System.Text;
+using LoanManagement.Models.Entities;
+using System.Linq;
 
 namespace SampleDemoApp
 {
@@ -10,28 +13,42 @@ namespace SampleDemoApp
     /// Defines a sample volatile storage.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    class VolatileStorage<IEntity> : IStorage<IEntity>
+    public class VolatileStorage<T> : IStorage<T> where T:IEntity
     {
-        private List<IEntity> Storage = new List<IEntity>();
+        private List<T> Storage = new List<T>();
 
-        public bool Add(ref IEntity record)
+        private int counter = 0;
+
+        public bool Add(ref T record)
         {
-            throw new NotImplementedException();
+             record.Id = ++counter;
+            Storage.Add(record);
+            return true;
         }
 
-        public IEntity FindByCustomReference(string referenceNumber)
+        T IStorage<T>.FindByCustomReference(string referenceNumber)
         {
-            throw new NotImplementedException();
+            return Storage.Where(x => x.CustomReference == referenceNumber).FirstOrDefault();
         }
 
-        public IEntity Get(int Id)
+        public IEntity Get(int id)
         {
-            throw new NotImplementedException();
+            return Storage.Where(x => x.Id == id).FirstOrDefault();
         }
 
-        public void Update(IEntity record)
+        public void Update(T record)
         {
-            throw new NotImplementedException();
+            T element = Storage.Where(x => x.Id == record.Id).FirstOrDefault();
+            if (record != null)
+            {
+                Storage.Remove(element);
+                Storage.Add(record);
+            }
+        }        
+
+        T IStorage<T>.Get(int id)
+        {
+            return Storage.Where(x => x.Id == id).FirstOrDefault();
         }
     }
 }

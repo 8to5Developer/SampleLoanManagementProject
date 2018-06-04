@@ -1,6 +1,0 @@
-C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Models\bin\Debug\netstandard1.6\LoanManagement.Models.deps.json
-C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Models\bin\Debug\netstandard1.6\LoanManagement.Models.dll
-C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Models\bin\Debug\netstandard1.6\LoanManagement.Models.pdb
-C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Models\obj\Debug\netstandard1.6\LoanManagement.Models.AssemblyInfo.cs
-C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Models\obj\Debug\netstandard1.6\LoanManagement.Models.dll
-C:\Users\Root\documents\visual studio 2017\Projects\LoanManagement\LoanManagement.Models\obj\Debug\netstandard1.6\LoanManagement.Models.pdb
