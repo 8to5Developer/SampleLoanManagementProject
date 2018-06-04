@@ -9,7 +9,7 @@ namespace LoanManagement.Models.Entities
         /// <summary>
         /// Stores the Identifier.
         /// </summary>
-        int Id { get; }
+        int Id { get; set; }
 
         /// <summary>
         /// A custom reference.

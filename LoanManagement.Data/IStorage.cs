@@ -21,9 +21,9 @@ namespace LoanManagement.Data
         /// <summary>
         /// Returns a record by searching for the Id.
         /// </summary>
-        /// <param name="Id">The unique Identifier for the record.</param>
+        /// <param name="id">The unique Identifier for the record.</param>
         /// <returns></returns>
-        IEntity Get(int Id);
+        IEntity Get(int id);
 
         /// <summary>
         /// Finds a record based on a specific provided reference.
